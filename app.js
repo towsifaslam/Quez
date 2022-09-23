@@ -73,7 +73,7 @@ const getAnswer = () => {
   let asnwer;
   optionInput.forEach((input) => {
     if (input.checked) {
-      asnwer = input.valule;
+      asnwer = input.value;
     }
   });
   return asnwer;
